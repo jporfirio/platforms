@@ -56,6 +56,9 @@ export default async function SubdomainPage({
           <p className="mt-3 text-lg text-gray-600">
             This is your custom subdomain page
           </p>
+          <p className="mt-3 text-lg text-gray-600">
+            this is our about page: <Link href={`${protocol}://${subdomain}.${rootDomain}/extra`}>{subdomain}.{rootDomain}/extra</Link>
+          </p>
         </div>
       </div>
     </div>
